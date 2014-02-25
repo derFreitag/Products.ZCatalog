@@ -523,7 +523,7 @@ class Catalog(Persistent, Acquisition.Implicit, ExtensionClass.Base):
         # Canonicalize the request into a sensible query before passing it on
         query = self.make_query(query)
 
-        cr = self.getCatalogPlan({}})
+        cr = self.getCatalogPlan({})
         cr.start()
 
         #plan = cr.plan()        
