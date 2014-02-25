@@ -523,12 +523,11 @@ class Catalog(Persistent, Acquisition.Implicit, ExtensionClass.Base):
         # Canonicalize the request into a sensible query before passing it on
         query = self.make_query(query)
 
-        cr = self.getCatalogPlan(query)
+        cr = self.getCatalogPlan({}})
         cr.start()
 
-        plan = cr.plan()
-        if not plan:
-            plan = self._sorted_search_indexes(query)
+        #plan = cr.plan()        
+        plan = self._sorted_search_indexes(query)
 
         rs = None  # result set
         indexes = self.indexes.keys()
