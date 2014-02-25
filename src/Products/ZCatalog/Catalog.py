@@ -616,12 +616,11 @@ class Catalog(Persistent, Acquisition.Implicit, ExtensionClass.Base):
         # Canonicalize the request into a sensible query before passing it on
         query = self.make_query(query)
 
-        cr = self.getCatalogPlan(query)
+        cr = self.getCatalogPlan({})
         cr.start()
 
-        plan = cr.plan()
-        if not plan:
-            plan = self._sorted_search_indexes(query)
+        #plan = cr.plan()
+        plan = self._sorted_search_indexes(query)
 
         rs = None  # result set
         for index_id in plan:
@@ -704,7 +703,7 @@ class Catalog(Persistent, Acquisition.Implicit, ExtensionClass.Base):
                 actual_result_count=rlen, b_start=b_start, b_size=b_size)
             cr.stop_split(sort_report_name, None)
 
-        cr.stop()
+        #cr.stop()
         return result
 
     def _sort_iterate_index(self, actual_result_count, result, rs,
