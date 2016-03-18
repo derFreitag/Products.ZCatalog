@@ -705,7 +705,7 @@ class Catalog(Persistent, Acquisition.Implicit, ExtensionClass.Base):
         else:
             # Empty result set
             result = LazyCat([])
-        cr.stop()
+        #cr.stop()
         return result
 
     def sortResults(self, rs, sort_index, reverse=False, limit=None,
