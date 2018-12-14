@@ -11,6 +11,7 @@ Changelog
 ------------------------
 
 - Skip the query plan by now.
+  See https://github.com/zopefoundation/Products.ZCatalog/issues/3
   [ctheune]
 
 3.0.3 (2017-10-10)
