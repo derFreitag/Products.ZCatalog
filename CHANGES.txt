@@ -4,6 +4,8 @@ Changelog
 3.0.4 (unreleased)
 ------------------
 
+- Skip the query plan by now.
+  [ctheune]
 
 3.0.3 (2017-10-10)
 ------------------
