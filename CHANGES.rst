@@ -4,8 +4,9 @@ Changelog
 5.2 (unreleased)
 ----------------
 
-- Nothing changed yet.
-
+- Skip the query plan by now.
+  See https://github.com/zopefoundation/Products.ZCatalog/issues/3
+  [ctheune]
 
 5.1 (2020-04-20)
 ----------------
