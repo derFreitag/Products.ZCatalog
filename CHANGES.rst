@@ -1,6 +1,12 @@
 Changelog
 =========
 
+5.2.post1 (unreleased)
+----------------------
+
+- Nothing changed yet.
+
+
 5.2.post0 (2020-12-15)
 ----------------------
 
