@@ -1,8 +1,8 @@
 Changelog
 =========
 
-5.3 (unreleased)
-----------------
+5.2.post0 (2020-12-15)
+----------------------
 
 - Skip the query plan by now.
   See https://github.com/zopefoundation/Products.ZCatalog/issues/3
