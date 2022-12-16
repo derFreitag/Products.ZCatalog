@@ -1,6 +1,13 @@
 Changelog
 =========
 
+7.1 (unreleased)
+----------------
+
+- Skip the query plan by now.
+  See https://github.com/zopefoundation/Products.ZCatalog/issues/3
+  [ctheune]
+
 7.0 (2023-03-14)
 ----------------
 
