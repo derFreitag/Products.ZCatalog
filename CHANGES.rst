@@ -4,6 +4,9 @@ Changelog
 7.5 (unreleased)
 ----------------
 
+- Skip the query plan by now.
+  See https://github.com/zopefoundation/Products.ZCatalog/issues/3
+  [ctheune]
 
 7.4 (2026-08-20)
 ----------------
