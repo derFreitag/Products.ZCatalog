@@ -1,8 +1,8 @@
 Changelog
 =========
 
-7.2 (unreleased)
-----------------
+7.1.post0 (2025-02-20)
+----------------------
 
 - Skip the query plan by now.
   See https://github.com/zopefoundation/Products.ZCatalog/issues/3
