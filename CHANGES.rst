@@ -1,6 +1,12 @@
 Changelog
 =========
 
+7.3.post1 (unreleased)
+----------------------
+
+- Nothing changed yet.
+
+
 7.3.post0 (2026-05-19)
 ----------------------
 
