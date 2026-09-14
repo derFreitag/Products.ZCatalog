@@ -1,8 +1,8 @@
 Changelog
 =========
 
-7.5 (unreleased)
-----------------
+7.4.post0 (2026-09-14)
+----------------------
 
 - Skip the query plan by now.
   See https://github.com/zopefoundation/Products.ZCatalog/issues/3
